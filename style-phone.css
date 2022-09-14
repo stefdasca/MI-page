@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1000px) {
+    .grid-container{
+        display: block;
+    }
+    .flags{
+        display: none;
+    }
+    .grid-item2{
+        text-align: center;
+    }
+    .homegrid{
+        display: block;
+    }
+    .grid-tabel{
+        word-wrap: break-word;
+    }
+    .grid-container2{
+        display: block;
+    }
+    .grid-videos{
+        display: block;
+        align-items: center;
+    }
+    .grid-videos-item iframe{
+        width: min(400px, 90%);
+    }
+    .grid-map{
+        display: block;
+    }
+    .box-contact{
+        width: 80%;
+    }
+  }

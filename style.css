@@ -1,0 +1,129 @@
+body {
+    background-color: #5ba0d6;
+}
+
+.titlu {
+    text-align: center;
+    color: darkblue;
+    font-family: 'Garamond';
+}
+
+#menu{
+  padding: 0;
+  list-style: none;
+  background-color: darkred;
+  font-family: 'Garamond';
+  font-size: 1em;
+  width: min(900px, 98.5%);
+  display: table;
+  margin-left:auto;
+  margin-right:auto;
+}
+#menu li{
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+}
+#menu li a{
+  display: block;
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+#menu li a:hover{
+    color: white;
+    background: orange;
+}
+#menu li ul.dropdown{
+      background: darkred;
+      display: none;
+      position: absolute;
+      z-index: 999;
+      left: 0;
+      padding-top: 0em;
+      padding-left: 0.8em;
+      padding-right: 0.8em;
+      padding-bottom: 0em;
+      margin: -1em;
+      transform: translate(1em, 0.8em);
+  }
+  #menu li:hover ul.dropdown{
+      display: block;	/* Display the dropdown */
+  }
+  #menu li ul.dropdown li{
+      display: block;
+  }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20vw 55vw 20vw;
+}
+.grid-item {
+   /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  text-align: left;
+  font-family: Garamond;
+  font-size: 1em;
+  color: darkred;
+}
+
+.grid-item2 {
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+ padding: 1em;
+ text-align: left;
+ font-family: Garamond;
+ font-size: 1.5em;
+ color: darkred;
+}
+.box{
+  width: 60vw;
+  margin-left: 20vw;
+  padding: 2vw;
+}
+
+
+.homegrid {
+  display: grid;
+  grid-template-columns: 60vw 35vw;
+}
+
+#homegrid figure {
+  margin: 2vw;
+  padding: 0;
+  font-family: Garamond;
+  font-size: 40px;
+  color: darkred;
+  text-align: center;
+}
+
+#homegrid figure img {
+  margin: 4vw;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.homegrid-item {
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+ padding: 0.1em;
+ text-align: center;
+ font-family: Garamond;
+ font-size: 24px;
+ color: darkred;
+}
+
+.flags img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15vw;
+  height: 8vw;
+}
+
+#home-services li::marker {
+  color: darkred;
+  font-size: 0.75em;
+}
+
+/* TO-DO: Style for width <= 1000px */

@@ -1,0 +1,55 @@
+.textintro
+{
+    position: relative;
+    text-align: center;
+    line-height: 1.5;  
+    margin-bottom: 1vw; 
+    color: white;
+    width: 50vw;
+    left: 25%;
+}
+
+.grid-tabel {
+    display: grid;
+    grid-template-columns: 20vw 60vw;
+    justify-content: center;
+}
+.grid-item{
+    border: 5px solid orange;
+    color: darkred;
+    text-align: center;
+}
+.text{
+    font-family: Garamond;
+    color: darkred;
+    line-height: 30px;
+}
+
+b{
+    color: black;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    justify-content: center;
+  }
+
+  .flagsm{
+    padding: 1em;
+  }
+  .flagsm img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max(300px, 25vw);
+    height: max(300px, 25vw);
+  }
+  
+#articles{
+    text-align: center;
+    color: white;
+    font-family: Garamond;
+    font-size: 1.5em;
+    font-weight: bold;
+}

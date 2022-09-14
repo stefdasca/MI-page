@@ -1,0 +1,41 @@
+.textintro
+{
+    position: relative;
+    text-align: center;
+    line-height: 1.5;  
+    margin-bottom: 1vw; 
+    color: white;
+    width: 50vw;
+    left: 25%;
+}
+
+.service{
+    position: relative;
+    font-size: 28px;
+    left: 2%;
+    text-align: left;
+    color: darkred;
+    font-family: 'Garamond';
+    word-break: break-word; 
+    top: 20%;
+
+}
+
+.description{
+    font-size: 22px;
+    line-break: normal; 
+    margin-right: 10vw;
+    line-height: 1;
+    color: black;
+    left: 10%;
+    top: 20%;
+}
+
+
+.flags img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+    height: 8vw;
+  }

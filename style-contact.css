@@ -1,0 +1,44 @@
+.maps{
+
+    overflow:hidden;
+
+    padding-bottom:90%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.maps iframe{
+
+    left:5%;
+    top:0;
+    height:120%;
+    width:100%;
+    position:absolute;
+}
+
+.box-contact{
+    position:absolute;
+    right: 0;
+    width: 40%;
+    padding: 5vw;
+    margin: 2vw;
+   /* border: 15px solid green;
+    padding: 50px;
+    margin: 20px;*/
+}
+
+.text-contact{
+    color: darkred;
+    font-family: Garamond;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-map {
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+    justify-content: center;
+  }

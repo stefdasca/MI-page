@@ -1,0 +1,30 @@
+.textintro
+{
+    position: relative;
+    text-align: center;
+    line-height: 1.5;  
+    margin-bottom: 1vw; 
+    color: white;
+    width: 50vw;
+    left: 25%;
+}
+
+.grid-tabel {
+    display: grid;
+    grid-template-columns: 20vw 60vw;
+    justify-content: center;
+}
+.grid-item{
+    border: 5px solid orange;
+    color: darkred;
+    text-align: center;
+}
+.text{
+    font-family: Garamond;
+    color: darkred;
+    line-height: 30px;
+}
+
+b{
+    color: black;
+}

@@ -1,0 +1,11 @@
+.textintro
+{
+    position: relative;
+    text-align: center;
+    line-height: 1.5;  
+    margin-bottom: 1vw; 
+    color: darkred;
+    width: 70vw;
+    left: 15%;
+    padding-top: 1em;
+}

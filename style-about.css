@@ -1,0 +1,16 @@
+.text{
+    text-align: center;
+    color: black;
+    font-family: 'Garamond';
+}
+
+.text2{
+    text-align: left;
+    color: green;
+    font-family: 'Garamond';
+}
+
+ul li::marker {
+    color: red;
+    font-size: 1.5em;
+  }
